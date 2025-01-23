@@ -20,17 +20,17 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <link rel="shortcut icon" href="next.svg" type="image/x-icon" />
       </head>
       <body>
-        <div className="w-screen h-screen flex mt-5 ml-5">
+        <div className="w-screen h-screen">
           <motion.div
             key={pathname}
-            initial={{ x: 0, opacity: 0 }}
-            animate={{ x: 20, opacity: 1 }}
+            initial={{ x: 0, y: 0, opacity: 0 }}
+            animate={{ x: 20, y: 20, opacity: 1 }}
             exit={{ y: -10, opacity: 0 }}
             transition={{ duration: 0.8, ease: "easeInOut" }}
             className="w-full h-full flex flex-col"
           >
             <Header />
-            <div className="w2/4 mt-10">{children}</div>
+            {children}
           </motion.div>
         </div>
       </body>

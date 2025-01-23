@@ -1,0 +1,12 @@
+.h1 {
+  font-size: 3.75rem /* 60px */;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.h3 {
+  font-size: 1.75rem /* 60px */;
+  line-height: 1;
+  font-weight: 400;
+  margin-top: 2rem;
+}

@@ -7,7 +7,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex space-x-5">
+    <nav className="flex space-x-5 mb-20">
       <Link
         href={"/"}
         about="Link to home"
