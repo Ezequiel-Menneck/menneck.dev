@@ -18,7 +18,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     <html lang="pt-BR" className={afacadFlux.className}>
       <head>
         <title>Menneck Dev</title>
-        <link rel="shortcut icon" href="next.svg" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
       </head>
       <body>
         <div className="w-screen h-screen">
