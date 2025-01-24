@@ -7,7 +7,7 @@ export default function Header() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex space-x-5 mb-20">
+    <nav className="flex space-x-5 mb-12">
       <Link
         href={"/"}
         about="Link to home"
@@ -21,7 +21,7 @@ export default function Header() {
         href={"/blog"}
         about="Link to blog"
         className={`${
-          pathname === "/blog" ? "font-bold text-xl" : "font-normal"
+          pathname.includes("/blog") ? "font-bold text-xl" : "font-normal"
         } text-lg`}
       >
         Blog

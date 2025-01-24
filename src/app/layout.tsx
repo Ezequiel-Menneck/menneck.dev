@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { motion } from "framer-motion";
 import { Anaheim } from "next/font/google";
@@ -25,12 +26,15 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             key={pathname}
             initial={{ x: 0, y: 0, opacity: 0 }}
             animate={{ x: 20, y: 20, opacity: 1 }}
-            exit={{ y: -10, opacity: 0 }}
-            transition={{ duration: 0.8, ease: "easeInOut" }}
-            className="w-full h-full flex flex-col"
+            exit={{ x: -10, y: -10, opacity: 0 }}
+            transition={{ duration: 0.6, ease: "easeInOut" }}
+            className="w-screen h-screen flex flex-col items-center"
           >
             <Header />
-            {children}
+            <div className="flex flex-col justify-center items-center max-w-4xl w-full">
+              {children}
+              <Footer />
+            </div>
           </motion.div>
         </div>
       </body>

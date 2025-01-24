@@ -1,4 +1,8 @@
-Vale Lançado há quase 30 anos, o Java ainda continua sendo uma das linguagens mais utilizadas no mundo (A.K.A 3 Billion Devices Run Java), mas com tantas novas tecnologias surgindo mês a mês será que ainda vale o investimento em 2025?
+24/01/2025
+
+# Vale a pena aprender Java em 2025 Copy?
+
+Lançado há quase 30 anos, o Java ainda continua sendo uma das linguagens mais utilizadas no mundo (A.K.A 3 Billion Devices Run Java), mas com tantas novas tecnologias surgindo mês a mês será que ainda vale o investimento em 2025?
 
 ### Multiplataforma
 

@@ -1,7 +1,7 @@
 export default function Page() {
   return (
-    <section className="flex flex-col justify-center items-center w-screen">
-      <div className="mb-10 max-w-4xl w-full">
+    <section>
+      <div>
         <h1 className="text-6xl font-bold">Hello There</h1>
         <p className="text-xl">
           Menneck (A.K.A Ezequiel Petry Menneck) is a solo Full Stack Developer,
@@ -12,7 +12,7 @@ export default function Page() {
           bookmarks and learn about him.
         </p>
       </div>
-      <div className="mb-10 max-w-4xl w-full">
+      <div>
         <h1 className="text-6xl font-bold">More About me</h1>
         <div className="space-y-5">
           <p className="mb-6 text-xl">
@@ -39,33 +39,6 @@ export default function Page() {
             value to the team and the company I work for.
           </p>
         </div>
-      </div>
-
-      <div className="space-x-5 mt-10">
-        <a
-          href="https://x.com/_menneck"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-xl text-slate-500 italic hover:text-slate-700"
-        >
-          X / Twitter
-        </a>
-        <a
-          href="https://www.linkedin.com/in/ezequiel-menneck/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-xl text-slate-500 italic hover:text-slate-700"
-        >
-          Linkedin
-        </a>
-        <a
-          href="https://github.com/Ezequiel-Menneck"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="font-bold text-xl text-slate-500 italic hover:text-slate-700"
-        >
-          Github
-        </a>
       </div>
     </section>
   );
