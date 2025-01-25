@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Meu Blog Pessoal 📝
 
-## Getting Started
+Bem-vindo(a) ao meu repositório de blog pessoal! 🎉
 
-First, run the development server:
+Aqui você encontrará artigos, ideias, ferramentas e conteúdos que considero úteis, interessantes ou simplesmente legais. Este espaço é um reflexo dos meus interesses e daquilo que gosto de compartilhar com o mundo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✍️ O que você encontrará por aqui?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Artigos técnicos:** Dicas, tutoriais e insights sobre tecnologia, desenvolvimento de software e outras áreas que estudo ou trabalho.
+- **Reflexões pessoais:** Pensamentos e experiências que me marcaram e que acho que valem a pena ser compartilhados.
+- **Coisas legais:** Qualquer conteúdo que me chame a atenção e que eu ache interessante o suficiente para dividir com você.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Por que criar este blog?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+A ideia deste blog é simples: compartilhar conhecimento, registrar aprendizados e ter um espaço para guardar tudo que acho relevante ou inspirador. Quem sabe, você também pode achar algo útil por aqui!
 
-## Learn More
+## 🗂️ Estrutura do Repositório
 
-To learn more about Next.js, take a look at the following resources:
+- Cada artigo ou postagem terá seu próprio arquivo Markdown (`.md`) na raiz ou em subpastas organizadas por tema.
+- Recursos adicionais, como imagens ou arquivos relacionados, estarão em pastas específicas.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contribuições
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este blog é meu espaço pessoal, mas se você encontrar algo que possa ser melhorado, ficarei feliz em receber suas sugestões! Sinta-se à vontade para abrir uma issue ou enviar um pull request. 
 
-## Deploy on Vercel
+## 📬 Fale Comigo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Se quiser conversar, sugerir temas ou simplesmente dar um oi, me encontre no X [_menneck](https://x.com/_menneck) ou no [Linkedin](https://www.linkedin.com/in/ezequiel-menneck/).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Espero que você aproveite este espaço tanto quanto eu ao criá-lo. Boa leitura! 😊
