@@ -32,7 +32,11 @@ async function getPostContent(originalSlug: string) {
   return marked.parse(fileContents, { renderer });
 }
 
-export default async function Post({ params }: { params: { slug: string } }) {
+export default async function Post({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
   const { slug } = await params;
   const content = await getPostContent(slug);
 
